@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_text_mockup01s",
+  "info": {
+    "displayName": "Blocks.textImage02",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "is_dark": {
+      "type": "boolean",
+      "default": false
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "container_class": {
+      "type": "string"
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

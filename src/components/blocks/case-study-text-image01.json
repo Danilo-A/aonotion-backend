@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_case_study_case_study_text_image01s",
+  "info": {
+    "displayName": "Blocks.textImage01",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "large": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "small": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "large_background_color": {
+      "type": "string"
+    },
+    "small_background_color": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "is_dark": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "container_class": {
+      "type": "string"
+    }
+  }
+}
