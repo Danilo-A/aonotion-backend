@@ -12,7 +12,9 @@
       "default": "#ffffff"
     },
     "container_class": {
-      "type": "string"
+      "type": "string",
+      "default": "content",
+      "required": false
     },
     "is_dark": {
       "type": "boolean",
