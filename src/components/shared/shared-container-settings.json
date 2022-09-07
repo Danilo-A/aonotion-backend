@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_shared_container_settings",
+  "info": {
+    "displayName": "Shared.containerSettings",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "container_class": {
+      "type": "string"
+    },
+    "is_dark": {
+      "type": "boolean",
+      "default": false
+    },
+    "section_id": {
+      "type": "string"
+    }
+  }
+}

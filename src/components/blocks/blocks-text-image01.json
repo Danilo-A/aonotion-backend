@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_blocks_blocks_text_image01s",
+  "info": {
+    "displayName": "Blocks.textImage01",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "large_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "large_background_color": {
+      "type": "string",
+      "required": true
+    },
+    "small_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "small_background_color": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_blocks_image01s",
+  "info": {
+    "displayName": "Blocks.image01",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    }
+  }
+}

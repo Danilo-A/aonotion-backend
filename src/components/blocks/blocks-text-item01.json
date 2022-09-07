@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_blocks_text_item01s",
+  "info": {
+    "displayName": "Blocks.textItem01",
+    "icon": "i-cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

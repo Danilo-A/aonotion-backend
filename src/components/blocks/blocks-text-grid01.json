@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_blocks_text_grid01s",
+  "info": {
+    "displayName": "Blocks.textGrid01",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Blocks.TextItem01",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.blocks-text-item01",
+      "required": true
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    }
+  }
+}

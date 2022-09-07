@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_blocks_text_image03s",
+  "info": {
+    "displayName": "Blocks.textImage03",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

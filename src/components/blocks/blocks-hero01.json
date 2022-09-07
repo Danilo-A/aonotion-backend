@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_blocks_hero01s",
+  "info": {
+    "displayName": "Blocks.hero01",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "scroll_to": {
+      "type": "string",
+      "required": false
+    },
+    "background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_blocks_text_image02s",
+  "info": {
+    "displayName": "Blocks.textImage02",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

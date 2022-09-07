@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "CaseStudy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "project"
+    },
+    "nav_dark": {
+      "type": "boolean",
+      "default": true
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.blocks-hero01",
+        "blocks.blocks-text-grid01",
+        "blocks.blocks-text-image01",
+        "blocks.blocks-text-image02",
+        "blocks.blocks-image01",
+        "blocks.blocks-text-image03",
+        "blocks.blocks-content-boxes01"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_blocks_content_item01s",
+  "info": {
+    "displayName": "Blocks.contentItem01",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_class": {
+      "type": "string"
+    },
+    "image_on": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
