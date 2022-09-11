@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "categories"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "aonotion",
+        "website",
+        "design",
+        "ecommerce",
+        "general"
+      ],
+      "required": true,
+      "default": "aonotion"
+    }
+  }
+}
