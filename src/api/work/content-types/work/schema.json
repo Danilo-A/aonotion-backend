@@ -43,6 +43,16 @@
           "localized": true
         }
       }
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.blocks-logo-grid"
     }
   }
 }

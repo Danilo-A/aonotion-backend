@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_blocks_logo_grid_items",
+  "info": {
+    "displayName": "Blocks.logoGridItem",
+    "icon": "border-style",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

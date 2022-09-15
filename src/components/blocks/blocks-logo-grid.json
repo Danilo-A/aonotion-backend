@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_blocks_logo_grids",
+  "info": {
+    "displayName": "Blocks.logoGrid",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Blocks.logoGridItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.blocks-logo-grid-item"
+    }
+  }
+}
