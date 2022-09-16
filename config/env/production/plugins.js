@@ -1,5 +1,5 @@
 module.exports = ({env}) => ({
-    chkeditor: true,
+    ckeditor: true,
     upload: {
         config: {
             provider: 'aws-s3',
