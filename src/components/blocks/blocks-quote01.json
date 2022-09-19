@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_blocks_quote01s",
+  "info": {
+    "displayName": "Blocks.quote01",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-container-settings"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
